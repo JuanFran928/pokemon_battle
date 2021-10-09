@@ -1,0 +1,62 @@
+:root {
+  --player-height: 500px;
+  --player-width: 600px;
+}
+
+body {
+  margin: 50px;
+}
+
+.container {
+  margin: 50px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player {
+  height: var(--player-height);
+  width: var(--player-width);
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.display {
+  border: 1px solid black;
+  height: var(--player-height);
+  width: var(--player-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stuff-on {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.stuff-down {
+  height: 50px;
+  width: var(--player-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stuff-down.downer {
+  height: 100px;
+}
+
+.square-pkmn {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.text {
+  font-size: 50px;
+}
