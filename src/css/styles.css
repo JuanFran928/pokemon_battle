@@ -60,3 +60,7 @@ body {
 .text {
   font-size: 50px;
 }
+
+button#startGameButton {
+  font-size: 30px;
+}
