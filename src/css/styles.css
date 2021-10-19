@@ -55,6 +55,8 @@ body {
   border: 1px solid black;
   width: 100px;
   height: 100px;
+  position: relative;
+  z-index: -1;
 }
 
 .text {
@@ -64,3 +66,24 @@ body {
 button#startGameButton {
   font-size: 30px;
 }
+
+.life-container {
+  background: gold;
+  width: 100px;
+  height: 25px;
+  transform: translate(-120px, -150px);
+}
+
+.life-container .life {
+  background: green;
+  width: var(--life);
+  height: 100%;
+  transition: width 0.25s;
+}
+
+/*
+.over {
+    position: relative;
+    top: -97px;
+}
+*/
